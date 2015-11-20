@@ -217,5 +217,15 @@ namespace CameraControlSample
             pictureBox1.Image = MakeGrayscale3(cameraControl.Camera.SnapshotOutputImage());
         }
 
+        private void cameraControl_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanelForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
     }
 }
